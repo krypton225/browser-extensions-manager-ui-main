@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+// stylelint-disable-next-line no-duplicate-selectors
+:root {
+    --fm-neutral-50: hsl(0deg 0% 100%);
+    --fm-neutral-100: hsl(0deg 0% 95%);
+    --fm-neutral-150: hsl(0deg 0% 90%);
+    --fm-neutral-200: hsl(0deg 0% 85%);
+    --fm-neutral-250: hsl(0deg 0% 80%);
+    --fm-neutral-300: hsl(0deg 0% 75%);
+    --fm-neutral-350: hsl(0deg 0% 70%);
+    --fm-neutral-400: hsl(0deg 0% 65%);
+    --fm-neutral-450: hsl(0deg 0% 60%);
+    --fm-neutral-500: hsl(0deg 0% 55%);
+    --fm-neutral-550: hsl(0deg 0% 50%);
+    --fm-neutral-600: hsl(0deg 0% 45%);
+    --fm-neutral-650: hsl(0deg 0% 40%);
+    --fm-neutral-700: hsl(0deg 0% 35%);
+    --fm-neutral-750: hsl(0deg 0% 30%);
+    --fm-neutral-800: hsl(0deg 0% 25%);
+    --fm-neutral-850: hsl(0deg 0% 20%);
+    --fm-neutral-900: hsl(0deg 0% 15%);
+    --fm-neutral-950: hsl(0deg 0% 10%);
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --fm-neutral-50: hsl(0deg 0% 100%);
+        --fm-neutral-100: hsl(0deg 0% 95%);
+        --fm-neutral-150: hsl(0deg 0% 90%);
+        --fm-neutral-200: hsl(0deg 0% 85%);
+        --fm-neutral-250: hsl(0deg 0% 80%);
+        --fm-neutral-300: hsl(0deg 0% 75%);
+        --fm-neutral-350: hsl(0deg 0% 70%);
+        --fm-neutral-400: hsl(0deg 0% 65%);
+        --fm-neutral-450: hsl(0deg 0% 60%);
+        --fm-neutral-500: hsl(0deg 0% 55%);
+        --fm-neutral-550: hsl(0deg 0% 50%);
+        --fm-neutral-600: hsl(0deg 0% 45%);
+        --fm-neutral-650: hsl(0deg 0% 40%);
+        --fm-neutral-700: hsl(0deg 0% 35%);
+        --fm-neutral-750: hsl(0deg 0% 30%);
+        --fm-neutral-800: hsl(0deg 0% 25%);
+        --fm-neutral-850: hsl(0deg 0% 20%);
+        --fm-neutral-900: hsl(0deg 0% 15%);
+        --fm-neutral-950: hsl(0deg 0% 10%);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --fm-neutral-50: hsl(0deg 0% 10%);
+        --fm-neutral-100: hsl(0deg 0% 15%);
+        --fm-neutral-150: hsl(0deg 0% 20%);
+        --fm-neutral-200: hsl(0deg 0% 25%);
+        --fm-neutral-250: hsl(0deg 0% 30%);
+        --fm-neutral-300: hsl(0deg 0% 35%);
+        --fm-neutral-350: hsl(0deg 0% 40%);
+        --fm-neutral-400: hsl(0deg 0% 45%);
+        --fm-neutral-450: hsl(0deg 0% 50%);
+        --fm-neutral-500: hsl(0deg 0% 55%);
+        --fm-neutral-550: hsl(0deg 0% 60%);
+        --fm-neutral-600: hsl(0deg 0% 65%);
+        --fm-neutral-650: hsl(0deg 0% 70%);
+        --fm-neutral-700: hsl(0deg 0% 75%);
+        --fm-neutral-750: hsl(0deg 0% 80%);
+        --fm-neutral-800: hsl(0deg 0% 85%);
+        --fm-neutral-850: hsl(0deg 0% 90%);
+        --fm-neutral-900: hsl(0deg 0% 95%);
+        --fm-neutral-950: hsl(0deg 0% 100%);
+    }
+}
+
+// stylelint-disable-next-line no-duplicate-selectors
+:root {
+    --fm-danger-color-100: hsl(0deg 75% 95%);
+    --fm-danger-color-200: hsl(0deg 75% 85%);
+    --fm-danger-color-300: hsl(0deg 75% 75%);
+    --fm-danger-color-400: hsl(0deg 75% 65%);
+    --fm-danger-color-500: hsl(0deg 75% 55%);
+    --fm-danger-color-600: hsl(0deg 75% 45%);
+    --fm-danger-color-700: hsl(0deg 75% 35%);
+    --fm-danger-color-800: hsl(0deg 75% 25%);
+    --fm-danger-color-900: hsl(0deg 75% 15%);
+}
+
+// stylelint-disable-next-line no-duplicate-selectors
+:root {
+    --fm-main-900: hsl(227deg 75% 14%);
+    --fm-main-800: hsl(226deg 25% 17%);
+    --fm-main-700: hsl(225deg 23% 24%);
+    --fm-main-600: hsl(226deg 11% 37%);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --fm-main-900: hsl(227deg 75% 14%);
+        --fm-main-800: hsl(226deg 25% 17%);
+        --fm-main-700: hsl(225deg 23% 24%);
+        --fm-main-600: hsl(226deg 11% 37%);
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --fm-main-600: hsl(226deg 23.58% 72.06%);
+        --fm-main-700: hsl(226deg 37% 72%);
+        --fm-main-800: hsl(226deg 46% 84%);
+        --fm-main-900: hsl(226deg 11% 37%);
+    }
+}
+
+// stylelint-disable-next-line no-duplicate-selectors
+:root {
+    --fm-gradient: linear-gradient(180deg, #EBF2FC 0%, #EEF8F9 100%);
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --fm-gradient: linear-gradient(180deg, #EBF2FC 0%, #EEF8F9 100%);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --fm-gradient: linear-gradient(180deg, #040918 0%, #091540 100%);
+    }
+}

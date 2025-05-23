@@ -1,2 +1,10 @@
+@charset "UTF-8";
+
+// stylelint-disable-next-line at-rule-empty-line-before
 @use "reset-zone" as Reset;
+@use "./base";
+@use "./components";
+@use "./layout/index";
+
+// stylelint-disable-next-line at-rule-empty-line-before
 @include Reset.rz-layer;

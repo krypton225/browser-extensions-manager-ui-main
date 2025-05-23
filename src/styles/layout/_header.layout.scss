@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.header {
+    margin-block-start: clamp(2rem, calc(1vw + 0.5rem), 2.75rem);
+
+    .navbar {
+        padding-block: 0.8rem;
+        padding-inline: 0.75rem;
+        border-radius: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--fm-main-800);
+    }
+}

@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+.c-button {
+    min-width: 2rem;
+    padding-inline: 0.5rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    user-select: none;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    appearance: auto;
+    background: none;
+    cursor: pointer;
+    font-family: var(--fm-ff);
+    font-size: var(--fm-fs-sm);
+    font-weight: var(--fm-fw-500);
+    line-height: 1.5;
+    transition:
+        background-color 0.35s ease-in-out,
+        color 0.35s ease-in-out,
+        border-color 0.35s ease-in-out;
+
+    &.is-big {
+        padding-block: clamp(0.2rem, calc(0.5vw + 0.25rem), 0.38rem);
+    }
+
+    &.is-medium {
+        padding-block: clamp(0.2rem, calc(0.4vw + 0.25rem), 0.3rem);
+    }
+
+    &.has-bg {
+        background-color: var(--fm-main-600);
+    }
+
+    &.is-disabled,
+    &[disabled],
+    &[disabled="disabled"] {
+        cursor: not-allowed;
+    }
+}

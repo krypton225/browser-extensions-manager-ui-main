@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {
+    font-family: var(--fm-ff);
+    background-image: var((--fm-gradient));
+}
+
+a {
+    text-decoration: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    // stylelint-disable-next-line declaration-no-important
+    box-shadow: 0 0 0 1.875rem var(--fm-neutral-50) inset !important;
+}
+
+.container {
+    max-inline-size: 55rem;
+    margin-inline: auto;
+    padding-inline: 1.5rem;
+}
+
+.sr-only {
+    inline-size: 1px;
+    block-size: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+    white-space: nowrap;
+}
