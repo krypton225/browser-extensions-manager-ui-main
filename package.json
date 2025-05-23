@@ -1,0 +1,52 @@
+{
+    "name": "browser-extensions-manager-ui-main",
+    "version": "1.0.0",
+    "description": "Frontend Mentor - Browser extensions manager UI solution",
+    "markdown": "github",
+    "license": "MIT",
+    "packageManager": "yarn@4.5.0",
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://opensource.org/license/mit/"
+        }
+    ],
+    "author": "Khaled Mohamed <k.mohamed.11.98@gmail.com> (https://github.com/krypton225)",
+    "contributors": [
+        "Khaled Mohamed"
+    ],
+    "repository": {
+        "url": "https://github.com/krypton225/browser-extensions-manager-ui-main.git",
+        "type": "git"
+    },
+    "bugs": {
+        "url": "https://github.com/krypton225/browser-extensions-manager-ui-main/issues",
+        "email": "k.mohamed.11.98@gmail.com"
+    },
+    "keywords": [
+        "sass",
+        "front end",
+        "front-end mentor"
+    ],
+    "scripts": {
+        "dev": "concurrently --prefix-colors=\"red,cyan,yellow\" \"yarn run server\" \"yarn run sass:watch\" \"yarn run sass:comp\"",
+        "server": "live-server --open=./index.html",
+        "sass:watch": "sass --no-source-map --load-path=node_modules ./src/styles/index.scss:dist/styles.css --watch",
+        "sass:comp": "sass --no-source-map --load-path=node_modules ./src/styles/index.scss:dist/styles.min.css --watch --style=compressed",
+        "lint": "npx stylelint ./src/styles/**/*.scss",
+        "upgrade": "ncu --upgrade",
+        "tags:github": "git push repo --tags",
+        "tags:gitlab": "git push gitlab --tags"
+    },
+    "devDependencies": {
+        "concurrently": "^9.1.2",
+        "live-server": "^1.2.2",
+        "npm-check-updates": "^18.0.1",
+        "sass": "^1.89.0",
+        "stylelint": "^16.19.1",
+        "stylelint-config-standard-scss": "^15.0.1"
+    },
+    "dependencies": {
+        "reset-zone": "^3.0.0"
+    }
+}
